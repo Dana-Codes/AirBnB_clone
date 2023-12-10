@@ -1,14 +1,18 @@
-phone = input()
+class Life:
+    def hobbies(self):
+        print("piano")
+        print("football")
+        print(len("coding"))
 
-convert = {
-    "1": "one",
-    "2": "two",
-    "3": "three",
-    "4": "four"
-}
-output = ""
+class Male(Life):
+    pass
 
-for ch in phone:
-    output += convert.get(ch)
+class Female(Life):
+    pass
 
-print(output)
+male1 = Male()
+male1.hobbies()
+
+female1 = Female()
+female1.hobbies()
+
