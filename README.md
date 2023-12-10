@@ -1,12 +1,34 @@
-# AirBnB Clone Project
 
-## Description
-This project aims to create a simplified clone of the AirBnB website. The implementation will cover fundamental concepts of the higher-level programming track, including a command interpreter, a website with static and dynamic elements, a database or file storage for data persistence, and an API for communication between the front-end and data.
+# AirBnB clone - The console
 
-## Command Interpreter
-The command interpreter is a tool to manipulate data without a visual interface, similar to a shell. It serves as a development and debugging tool, allowing users to interact with the underlying storage system.
 
-### How to Start
-To start the command interpreter, run the following command:
-```bash
-./console.py
+The AirBnB console this about create a minishell, this console works in interactive and non-interactive mode; this project is just a basic copy of AirBnB, 
+
+# command interpreter or console
+The first piece is to manipulate a powerful storage system. This storage engine will give us an abstraction between “My object” and “How they are stored and persisted”. This means: from your console code (the command interpreter itself) and from the front-end and RestAPI you will build later, you won’t have to pay attention (take care) of how your objects are stored.
+#  how to start it:
+In order to start the console, you must use the following command: ./console.py
+
+# How to used:
+- manage (create, update, destroy, etc) objects via a console / command interprete
+- store and persist objects to a file (JSON file)
+- Commands: create, show, destroy, all (shows all), update, help, quit
+### Example how to open:
+```
+$ ./console.py
+(hbnb) help
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+
+(hbnb) 
+(hbnb) 
+(hbnb) quit
+$
+```
+
+### Contact Info:
+#### Git: codingbydaniel@gmail.com
+
+#### Git: dana-codes
