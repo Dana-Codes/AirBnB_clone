@@ -1,1 +1,1 @@
-this is my read me file for AirBnb web-static project
+my read file for the airbnb project
